@@ -27,3 +27,8 @@ class Voiture:
 
         v1 = Voiture("123ABC", 2020, "Toyota", 10000)
         v2 = Voiture("456DEF", 2019, "Honda", 20000)
+        e1.afficherInformations()
+        e2.afficherInformations()
+
+        v1.afficherInformations()
+        v2.afficherInformations()
