@@ -35,3 +35,6 @@ class Voiture:
 
         e1.voitureService = v1
         v1.chauffeur = e1
+
+        e1.voitureService = None
+        v1.chauffeur = None
