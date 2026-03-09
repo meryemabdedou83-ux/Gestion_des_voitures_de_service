@@ -4,3 +4,6 @@ class Employe:
         self.nom = nom
         self.prenom = prenom
         self.voitureService = None
+
+    def afficherInformations(self):
+        print(self.nom, self.prenom, self.numeroPermis)
